@@ -1,0 +1,16 @@
+﻿<Application x:Class="AMD.AMDPlayer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml"
+             Exit="Application_Exit">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Images\MediaButtons_rasterized.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+    <JumpList.JumpList>
+        <JumpList x:Name="jump_list" ShowRecentCategory="True"/>
+    </JumpList.JumpList>
+</Application>

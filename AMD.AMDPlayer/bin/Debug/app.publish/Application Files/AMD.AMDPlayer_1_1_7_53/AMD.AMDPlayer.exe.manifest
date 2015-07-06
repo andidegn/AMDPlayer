@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AMD.AMDPlayer.exe" version="1.1.7.53" publicKeyToken="315e997294cd717c" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Film.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AMD.AMDPlayer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AMD.AMDPlayer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AMD.AMDPlayer.exe" size="1390056">
+      <assemblyIdentity name="AMD.AMDPlayer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8wfvt6ZPlXuZCJ2Dw+r5n2JB0GT3TqZEmDpeFVmjb+w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AMD.AMDPlayer.exe.config" size="3880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FSAAICjdfrSlXX8zmRrspWYq3G5exOehU+8syubJVR4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Film.ico" size="285478">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ubLJvUdVglT4cY/TOYDGjso3G6EtTqo8JrpgP4EA4ug=</dsig:DigestValue>
+    </hash>
+  </file>
+  <fileAssociation extension=".avi" description="AVI" progid="Media.mkv" defaultIcon="Film.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <fileAssociation extension=".divx" description="DIVX" progid="Media.divx" defaultIcon="Film.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <fileAssociation extension=".mkv" description="Matroska" progid="Media.avi" defaultIcon="Film.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <fileAssociation extension=".mov" description="Quicktime Movie" progid="Media.mov" defaultIcon="Film.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <fileAssociation extension=".mp4" description="MPEG 4" progid="Media.mp4" defaultIcon="Film.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <fileAssociation extension=".mpeg" description="MPEG" progid="Media.mpeg" defaultIcon="Film.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <fileAssociation extension=".mpg" description="MPEG" progid="Media.mpg" defaultIcon="Film.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <fileAssociation extension=".wmv" description="Windows Media Video" progid="Media.wmv" defaultIcon="Film.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+<publisherIdentity name="CN=zhadowzurfer\Andi Degn" issuerKeyHash="ea81d2bc9e6c85275e7eff8ecea6e20068f9c29b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ze00K+ojTti4OSuq+VK44AIVmLjA8OyJldoLGTtWjZ8=</DigestValue></Reference></SignedInfo><SignatureValue>jAyzLzviCHulILpszx2AiFE2EOJehr0UGsctM4EFimzGAbWJk73cpiOYNi/2VNr6xUJtTQSOWgUi/RaKrHQ/lG1SP70+4JOaUdoMhrRNhZNRLo+W680/a4Injk2GJQJfpFUGsHgDhj9jD9T6aviSV67IsJC77rFQjGse6EY/lCs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3sE62lyFRfGc3yd76Nwcm5zLGUVC12cCNCoT3ltQPY56sj77XOSRyNnvdNaJZhIJR/v1y00hKrEgmx8de3U5tDH0IW/KRCoBjN+6rpdXOrVMHXpEjJxex3PpiZT/EBOedUsE/AWdco+EfiHdRCmQeK2X0NRK27VS5M2CVBVeU7M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9f8d563b190bda9589ecf0c0b8981502e0b852f9aa2b39b8d84e23ea2b34edcd" Description="" Url=""><as:assemblyIdentity name="AMD.AMDPlayer.exe" version="1.1.7.53" publicKeyToken="315e997294cd717c" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=zhadowzurfer\Andi Degn</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UsPKHZE8dU2/znVoay9jqADRKzkV2QslSAyRqGRkk+g=</DigestValue></Reference></SignedInfo><SignatureValue>kA2VPRFn2mmRqbMSG20iq83kpu+uRIhFSz4mJ8S2l5d2LMIpOXz5Hyp8bQO6NMUJWhf3ogbJ3QWPm7HJ7Pqc9fvJ+zzT0FzZ8hsos2AnDYDteKIPGTNHZWOJ+riWS3XwmSS5sBJRG62iEcLsNYOSAB9zt6i3ssRwDV45WriaDiQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3sE62lyFRfGc3yd76Nwcm5zLGUVC12cCNCoT3ltQPY56sj77XOSRyNnvdNaJZhIJR/v1y00hKrEgmx8de3U5tDH0IW/KRCoBjN+6rpdXOrVMHXpEjJxex3PpiZT/EBOedUsE/AWdco+EfiHdRCmQeK2X0NRK27VS5M2CVBVeU7M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQd5gzNpAstbRC6jzi/jIE5zANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwAegBoAGEAZABvAHcAegB1AHIAZgBlAHIAXABBAG4AZABpACAARABlAGcAbjAeFw0xNTA1MTQyMDE1MjJaFw0xNjA1MTQwMjE1MjJaMDcxNTAzBgNVBAMeLAB6AGgAYQBkAG8AdwB6AHUAcgBmAGUAcgBcAEEAbgBkAGkAIABEAGUAZwBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDewTraXIVF8ZzfJ3vo3BybnMsZRULXZwI0KhPeW1A9jnqyPvtc5JHI2e901olmEglH+/XLTSEqsSCbHx17dTm0MfQhb8pEKgGM37qul1c6tUwdekSMnF7Hc+mJlP8QE551SwT8BZ1yj4R+Id1EKZB4rZfQ1ErbtVLkzYJUFV5TswIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALxub0zK3ZNK4FXGcIRAWoXcD1JoEH11p24574AkMY+kYPQAFbr+kEQxyYhws/QFvtlkG0vNd7YuJK+rOXJDJMMKKjozc69uP7wEikNkFKY0LM8inxwWufnaXDwe4ERI9I0HSuI2zJwTNlogWacmHzWbEvpz5QJk1rXHB2VTDlbW</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

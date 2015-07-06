@@ -1,0 +1,40 @@
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\bin\Debug\AMD.AMDPlayer.exe.config
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\bin\Debug\AMD.AMDPlayer.exe
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\bin\Debug\AMD.AMDPlayer.pdb
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMDPlayer.csprojResolveAssemblyReference.cache
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\App.baml
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\Images\MediaButtons_rasterized.baml
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\App.g.cs
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\MainWindow.g.cs
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer_MarkupCompile.cache
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer_MarkupCompile.lref
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\MainWindow.baml
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer.g.resources
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer.Properties.Resources.resources
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMDPlayer.csproj.GenerateResource.Cache
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer.exe
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer.pdb
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\bin\Debug\AMD.AMDPlayer.exe.manifest
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\bin\Debug\AMD.AMDPlayer.application
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer.exe.manifest
+D:\Dropbox\visual studio 2012\Projects\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer.application
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\bin\Debug\AMD.AMDPlayer.exe.config
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer.exe
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer.pdb
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\bin\Debug\AMD.AMDPlayer.exe.manifest
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\bin\Debug\AMD.AMDPlayer.application
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\bin\Debug\AMD.AMDPlayer.exe
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\bin\Debug\AMD.AMDPlayer.pdb
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMDPlayer.csprojResolveAssemblyReference.cache
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\App.baml
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\Images\MediaButtons_rasterized.baml
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\App.g.cs
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\MainWindow.g.cs
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer_MarkupCompile.cache
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer_MarkupCompile.lref
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\MainWindow.baml
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer.g.resources
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer.Properties.Resources.resources
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMDPlayer.csproj.GenerateResource.Cache
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer.exe.manifest
+D:\Dropbox\AMDPlayer\AMD.AMDPlayer\obj\Debug\AMD.AMDPlayer.application

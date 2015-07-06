@@ -1,0 +1,749 @@
+=====================================
+Version 1.1.7.53 - 2015/07/06 by Andi
+=====================================
+New Features, Improvements
+--------------------------
+- Added support for .M4A and .ACC files
+- Added expanded and fullscreen to main context menu
+
+Fixed Bugs, Changes
+-------------------
+- Fixed a lot of issues with showing and hiding components when changing
+   visual state (expanded, fullscreen etc.)
+
+ToDo
+----		
+- ***************************************************
+  ***** Actually implement color chooser/picker *****
+  ***************************************************
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Add database thing to remember progress in files
+- Add dynamic size control when showing/hiding controls and playlist
+- Make playlist searchable / catch key events before they go to mainwindow
+- Add playlist file functionality
+
+=====================================
+Version 1.0.1.22 - 2015/06/????????????????????????? by Andi
+=====================================
+New Features, Improvements
+--------------------------
+- Added color chooser/picker for background and text
+
+Fixed Bugs, Changes
+-------------------
+- Fixed Always On Top functionality. Correctly uncheckes "Always On Top" when
+   "Always On Top When Playing" hotkey (Ctrl T,P) is pressed
+
+ToDo
+----		
+- ***************************************************
+  ***** Actually implement color chooser/picker *****
+  ***************************************************
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+- Add dynamic size control when showing/hiding controls and playlist
+- Make playlist searchable / catch key events before they go to mainwindow
+- Add playlist file functionality
+
+=====================================
+Version 1.0.1.21 - 2015/05/30 by Andi
+=====================================
+New Features, Improvements
+--------------------------
+- 
+
+Fixed Bugs, Changes
+-------------------
+- Changed the way loading and adding to playlist works. Holding Ctrl 
+   while clicking on 'Browse' sets the OpenFileDialog to add files to 
+   playlist, while not holding Ctrl will clear the playlist and start
+   playing the first loaded file
+- Changed the way resizing is enabled. 'R' now toggles resize mode and
+   entering fullscreen disables resizing
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+- Add dynamic size control when showing/hiding controls and playlist
+- Make playlist searchable / catch key events before they go to mainwindow
+- Add playlist file functionality
+
+Known Bugs, Problems
+--------------------
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+- lv_playlist selected box not following selected index when moveing
+   items around using arrow keys
+- Progress slider sometimes looses sync
+
+
+=====================================
+Version 1.0.1.20 - 2015/05/29 by Andi
+=====================================
+New Features, Improvements
+--------------------------
+- Added more file associations
+- Created ClickOnce publish
+- Updated version structure
+- Added version functionality
+
+Fixed Bugs, Changes
+-------------------
+- Changed the way the player enters/exits fullscreen
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+- Add dynamic size control when showing/hiding controls and playlist
+- Make playlist searchable / catch key events before they go to mainwindow
+- Add playlist file functionality
+
+Known Bugs, Problems
+--------------------
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+- lv_playlist selected box not following selected index when moveing
+   items around using arrow keys
+- Progress slider sometimes looses sync
+
+
+===================================
+Version 0.019c - 2015/05/10 by Andi
+===================================
+New Features, Improvements
+--------------------------
+- 
+
+Fixed Bugs, Changes
+-------------------
+- Bug fixes
+- Changed fundamental design. Player now stores the MyMediaFile object
+   _file_playing alongside int _item_playing_index
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+- Add dynamic size control when showing/hiding controls and playlist
+- Make playlist searchable / catch key events before they go to mainwindow
+- Add playlist file functionality
+
+Known Bugs, Problems
+--------------------
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+- lv_playlist selected box not following selected index when moveing
+   items around using arrow keys
+- Progress slider sometimes looses sync
+
+
+===================================
+Version 0.019b - 2015/05/05 by Andi
+===================================
+New Features, Improvements
+--------------------------
+- 
+
+Fixed Bugs, Changes
+-------------------
+- Fixed play/pause button image issue: Image did not switch to 'Play'
+   when 'Stop' was pressed
+- Fixed fullscreen restriction: Fullscreen is now only available when
+   player is in PLAYING or PAUSED state
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+- Add dynamic size control when showing/hiding controls and playlist
+- Make playlist searchable / catch key events before they go to mainwindow
+- Add playlist file functionality
+
+Known Bugs, Problems
+--------------------
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+- lv_playlist selected box not following selected index when moveing
+   items around using arrow keys
+- Progress slider sometimes looses sync
+
+
+===================================
+Version 0.019a - 2015/04/24 by Andi
+===================================
+New Features, Improvements
+--------------------------
+- Added text colour of active item in playlist
+
+Fixed Bugs, Changes
+-------------------
+- Fixed double-click issue. DragMove() was consuming the event and also
+   changing the check for Mouse.DirectlyOver(). Solution was to put 
+   DragMove() in a timer so that after 10ms, if leftmouse is still 
+   pressed, DragMove() is called
+- Changed button functionality and removed the Pause button. Play
+   button now changes image between play and pause:
+  - play while playing -> pause
+  - play while paused -> play
+  - prev while play position <= 2sec -> prev
+  - prev while play position > 2sec -> restart media
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+- Add dynamic size control when showing/hiding controls and playlist
+
+Known Bugs, Problems
+--------------------
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+- lv_playlist selected box not following selected index when moveing
+   items around using arrow keys
+- Progress slider sometimes looses sync
+
+
+===================================
+Version 0.019 - 2015/04/24 by Andi
+===================================
+New Features, Improvements
+--------------------------
+- Added 'Stretch' function to Aspect menu
+
+Fixed Bugs, Changes
+-------------------
+- 
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+- Add dynamic size control when showing/hiding controls and playlist
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+- lv_playlist selected box not following selected index when moveing
+   items around using arrow keys
+- Progress slider sometimes looses sync
+
+
+
+===================================
+Version 0.018a - 2015/04/11 by Andi
+===================================
+New Features, Improvements
+--------------------------
+- Added filename as title when playing new media
+
+Fixed Bugs, Changes
+-------------------
+- 
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+- Add dynamic size control when showing/hiding controls and playlist
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+- lv_playlist selected box not following selected index when moveing
+   items around using arrow keys
+
+
+
+==================================
+Version 0.018 - 2015/03/02 by Andi
+==================================
+New Features, Improvements
+--------------------------
+- Added progress functionality in taskbar
+
+Fixed Bugs, Changes
+-------------------
+- 
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+- Add dynamic size control when showing/hiding controls and playlist
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+- lv_playlist selected box not following selected index when moveing
+   items around using arrow keys
+
+
+
+==================================
+Version 0.017 - 2015/02/12 by Andi
+==================================
+New Features, Improvements
+--------------------------
+- Added Always on top feature in context menu
+- Added function to hide controls when out of fullscreen in context menu
+- Added Settings for storing expanded state
+- Added Settings for restore position of window
+
+Fixed Bugs, Changes
+-------------------
+- Removed horizontal scroll bar in playlist
+- Changed default drop media type to audio and video
+- Changed min height and width so it is possible to resize to minimalistic
+   size for audio only purpose
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+- Add dynamic size control when showing/hiding controls and playlist
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+- lv_playlist selected box not following selected index when moveing
+   items around using arrow keys
+
+
+
+==================================
+Version 0.016 - 2015/02/10 by Andi
+==================================
+New Features, Improvements
+--------------------------
+
+Fixed Bugs, Changes
+-------------------
+- Fixed issue where if application is closed in fullscreen, upon reopen
+   size and position from fullscreen was applied
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+- lv_playlist selected box not following selected index when moveing
+   items around using arrow keys
+
+
+
+==================================
+Version 0.015 - 2015/01/11 by Andi
+==================================
+New Features, Improvements
+--------------------------
+- Added background image to border_media_element when 'Stop' or 
+   playback ends
+
+Fixed Bugs, Changes
+-------------------
+- Changed background colour to black for border_media_element
+- Changed loading of media to be in seperate task to not blok the
+   UI while loading large media collections
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+- lv_playlist selected box not following selected index when moveing
+   items around using arrow keys
+
+
+
+==================================
+Version 0.014 - 2015/01/10 by Andi
+==================================
+New Features, Improvements
+--------------------------
+- Added context menu with aspect selection and exit
+- Added option to move items around in playlist either with mouse or
+   by holding down CTRL and using the arrow up and down keys
+- Added sorting of playlist from context menu
+
+Fixed Bugs, Changes
+-------------------
+- Changed the way all settings are loaded and stored to be done solely
+   in WPF
+- Changed slider track height and colour
+- Fixed bug where fullscreen size and settings were stored in properties
+   when exiting while in fullscreen
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+- lv_playlist selected box not following selected index when moveing
+   items around using arrow keys
+
+
+
+==================================
+Version 0.013 - 2015/01/09 by Andi
+==================================
+New Features, Improvements
+--------------------------
+- Added resent files jumplist
+
+Fixed Bugs, Changes
+-------------------
+- Fixed minor misc errors
+- Changed the whole structure of the component placement with properly 
+   designed nested containers
+- Fixed playlist arrow key navigation so it does not interfere with 
+   volume and progress bar while the playlist does not have focus
+- Fixed delete. Now files are not deleted from the playlist if 'Delete'
+   is pressed and playlist does not have focus
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+- Add database thing to remember progress in files
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- Window does not always come to front when double-clicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+
+
+
+==================================
+Version 0.012 - 2015/01/07 by Andi
+==================================
+New Features, Improvements
+--------------------------
+- Added resent files jumplist
+
+Fixed Bugs, Changes
+-------------------
+- Fixed resizing when pressing 'R'
+- Fixed deleting item from playlist error. Index out of bounds exception
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+- Figure out a better way to enable resizing of window
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- Window does not always come to front when doubleclicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+
+
+
+==================================
+Version 0.011 - 2015/01/02 by Andi
+==================================
+New Features, Improvements
+--------------------------
+- Added thumb buttons for play, pause, stop, next and previous
+- Added colour transition for labels
+- Added option to open multiple instances if opening app directly or if
+   holding down shift when double-clicking mediafile
+
+Fixed Bugs, Changes
+-------------------
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to resize without resetting playback or figure out
+   better way to go to fullscreen
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- When pressing 'R' enable to resize, playback resets
+- Window does not always come to front when doubleclicking mediafile
+- Playback lags from time to time. Worst in HD media
+- If open one instance, open another, close first. When trying to open 
+   mediafile: crash
+
+
+
+==================================
+Version 0.010 - 2014/12/29 by Andi
+==================================
+New Features, Improvements
+--------------------------
+- Added Single Instance functionality
+- Window now jumps to from when playback starts
+- Slider thumb now snaps to mouse when mouse is clicked and dragged 
+   on sl_progress
+- ToolTip for sl_progress now follows the mouse
+
+Fixed Bugs, Changes
+-------------------
+- Fixed delete from playlist index bug
+- Fixed issue where controls did not hide when 
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to resize without resetting playback or figure out
+   better way to go to fullscreen
+- Figure out a way to make the tooltip show and follow the mouse when 
+   moving sl_progress
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- When pressing 'R' enable to resize, playback resets
+
+
+
+==================================
+Version 0.008 - 2014/12/26 by Andi
+==================================
+New Features, Improvements
+--------------------------
+- Added time tooltip to sl_progress
+- Added key checks for ctrl+7 and delete
+- Added resize enable on key 'R'
+
+Fixed Bugs, Changes
+-------------------
+- Fixed file execution. Had forgotten a couple of parts when copying
+   from other project
+- Figured out the scaling in fullscreen issue. When AllowTransparency=true 
+   and ResizeMode!=NoResize, then the window border is still pressent, just hidden.
+   This means that when going into fullscreen, the border width is conpensated.
+   If ResizeMode=NoResize, no problem.
+
+ToDo
+----		
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Figure out a way to resize without resetting playback or figure out
+   better way to go to fullscreen
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- When pressing 'R' enable to resize, playback resets
+- Controls does not hide when mouse is clicked while dragging off of screen
+
+
+
+==================================
+Version 0.007 - 2014/12/24 by Andi
+==================================
+New Features, Improvements
+--------------------------
+- Added auto play next in folder toggle button
+- Added key checks for up/down, space and 'F'
+
+Fixed Bugs, Changes
+-------------------
+- Fixed next/prev index out of boundes issues
+- Fixed play/pause. Now works as intended
+- Fixed sl_progress slider. Now working as intended
+
+ToDo
+----		
+- Add key checks for space, 'F', ctrl+7
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- Fullscreen does not scale to fit screen perfectly, 
+   could be something with the main border
+- When going into fullscreen using double click, the _fullscreen_components_visible_timer
+   is not started, for some unknown reason
+
+
+
+==================================
+Version 0.007 - 2014/12/23 by Andi
+==================================
+New Features, Improvements
+--------------------------
+- Added total, elapsed and remaining labels
+- Added volume value to settings
+
+Fixed Bugs, Changes
+-------------------
+- Progress slider now goes to clicked position
+- Fixed slider control with mouse. Now correctly stops slider update when
+   mouse activates the slider
+- Removed dropshadow and AllowTransparency to make fullscreen work properly
+- Fixed double-click to fullscreen. Now correctly works iff double-click on MediaElement
+- Changed button images to vector graphics
+- Fixed prev-track when shuffle play is enabled
+
+ToDo
+----		
+- Add key checks for space, up/down, 'F', ctrl+7
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- Fullscreen does not scale to fit screen perfectly, 
+   could be something with the main border
+
+
+
+==================================
+Version 0.006 - 2014/12/22 by Andi
+==================================
+New Features, Improvements
+--------------------------
+- Added key checks for media keys and left/right
+- Added volume control, bound directly to mediaElement in WPF
+- Added recursive folder search for files
+- Added mediafile check for video, audio and image
+- Added file-extension execution to work with player (double-click a 
+   file and open in program)
+- Added filedrop with support for dropping whole folders
+- Added progress bar
+- Added playlist with capability to show/hide. Auto hides when going into
+   fullscreen, but can be shown in fullscreen
+- Added window size and gridsplitter position to settings
+
+Fixed Bugs, Changes
+-------------------
+
+ToDo
+----		
+- Add volume value to settings
+- Add key checks for space, up/down, 'F', ctrl+7
+- Add menu with video settings (brightness etc.) among other things
+- Add functionality to select what type to load
+- Make progress slider go to mouse clicked position instead of doing large_step
+
+Known Bugs, Problems
+--------------------
+- Mouse generic double-click function does not register in eventhandler
+- Fullscreen does not scale to fit screen perfectly, 
+   could be something with the main border
+- Starting the same track fist time _play_prev as that is the first in the stack

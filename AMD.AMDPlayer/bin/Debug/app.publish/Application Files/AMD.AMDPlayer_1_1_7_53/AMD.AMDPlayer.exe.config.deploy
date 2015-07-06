@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="AMD.AMDPlayer.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+    <userSettings>
+        <AMD.AMDPlayer.Properties.Settings>
+            <setting name="top" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="left" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="height" serializeAs="String">
+                <value>200</value>
+            </setting>
+            <setting name="width" serializeAs="String">
+                <value>400</value>
+            </setting>
+            <setting name="playlist_visible" serializeAs="String">
+                <value>Visible</value>
+            </setting>
+            <setting name="gridsplitter_width" serializeAs="String">
+                <value>10</value>
+            </setting>
+            <setting name="volume_value" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="shuffle" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="auto_play_next_in_folder" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="key_volume_up" serializeAs="String">
+                <value>24</value>
+            </setting>
+            <setting name="key_volume_down" serializeAs="String">
+                <value>26</value>
+            </setting>
+            <setting name="aspect_zoom" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="aspect_normal" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ml_col_span" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="ml_aspect" serializeAs="String">
+                <value>Uniform</value>
+            </setting>
+            <setting name="ml_always_on_top" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="expanded" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ml_row_span" serializeAs="String">
+                <value>2</value>
+            </setting>
+            <setting name="component_state_flag_background" serializeAs="String">
+                <value>#FFFFFFFF</value>
+            </setting>
+            <setting name="component_state_flag_visibility" serializeAs="String">
+                <value>Visible</value>
+            </setting>
+            <setting name="main_border_thickness" serializeAs="String">
+                <value>1,1,1,1</value>
+            </setting>
+            <setting name="main_border_background" serializeAs="String">
+                <value>#FFFFFFFF</value>
+            </setting>
+            <setting name="ml_always_on_top_when_playing" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="aspect_stretch" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </AMD.AMDPlayer.Properties.Settings>
+    </userSettings>
+</configuration>
